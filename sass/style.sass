@@ -1,0 +1,44 @@
+@import '_colors.sass'
+
+body
+	margin: 0
+	background-color: darkviolet
+.section
+	perspective: 1000px
+.container
+	width: 650px
+	margin: auto
+	display: flex
+	flex-wrap: wrap
+	justify-content: center
+	align-items: center
+	height: 100vh
+	transition: 1s
+	transform: rotateX(55deg) rotateZ(-45deg) rotateY(10deg)
+	transform-style: preserve-3d
+.card
+	width: 200px
+	transition: .3s
+	margin: 5px
+.card:hover
+	cursor: pointer
+	transform: translateZ(10px)
+.container-origin
+	transform: rotate(0)
+img
+	max-width: 100%
+section
+	height: 100vh
+	width: 100%
+.parallax
+	background: url(https://images.wallpaperscraft.ru/image/hameleon_iashcheritsa_reptiliia_142774_1280x720.jpg)
+	background-size: cover
+	background-attachment: fixed
+	height: 300px
+	h1
+	font-size: 50px
+	font-family: consolas
+	color: whitesmoke
+	background-color: #333
+	text-align: center
+	line-height: 500px
